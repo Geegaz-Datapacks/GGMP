@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Spell Book","color": "gold","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"level 1","color":"gray","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:17061,ggmp:{id:6,spell:{id:1,mana:10,level:1}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Testing Orb","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"Use to gauge your potential","color":"gray","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1701,ggmp:{id:1}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

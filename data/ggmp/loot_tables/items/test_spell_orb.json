@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Test Spell Orb","color": "gold","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"Say hey","color":"white","italic": false}],
+							  [{"text":"level 1","color":"gray","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:17031,ggmp:{id:3,spell:{id:1,mana:10,level:1}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

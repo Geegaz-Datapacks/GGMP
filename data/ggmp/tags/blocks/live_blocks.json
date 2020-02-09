@@ -1,0 +1,10 @@
+{
+   "replace": false,
+   "values": [
+      "#minecraft:logs",
+      "minecraft:grass_block",
+      "minecraft:podzol",
+      "minecraft:farmland",
+      "minecraft:mycelium"
+   ]
+}

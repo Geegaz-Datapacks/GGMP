@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:structure_void",
+					"nbt": "{ggmp:{id:10}}"
+				}
+			}
+		}
+	},
+	"rewards":{
+		"function": "ggmp:blocks/place/extractor"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:structure_void",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Ether Extractor","color": "white","italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:17010,ggmp:{id:10}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

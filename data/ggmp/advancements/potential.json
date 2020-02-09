@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards":{
+		"function": "ggmp:get_potential"
+	}
+}

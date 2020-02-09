@@ -1,0 +1,11 @@
+{
+   "replace": false,
+   "values": [
+      "#minecraft:leaves",
+      "#minecraft:small_flowers",
+      "#minecraft:tall_flowers",
+      "#minecraft:crops",
+      "minecraft:grass",
+      "minecraft:tall_grass"
+   ]
+}

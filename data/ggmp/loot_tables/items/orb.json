@@ -1,0 +1,66 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggmp:items/orb/charged1",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"ggmp.potential": {
+											"min": 5,
+											"max": 149
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggmp:items/orb/charged2",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"ggmp.potential": {
+											"min": 150,
+											"max": 299
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:air",
+							"conditions": [
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"ggmp.potential": {
+											"min": 300,
+											"max": 999
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggmp:items/orb/regular"
+						}
+					]
+				}
+			]
+		}
+	]
+}
