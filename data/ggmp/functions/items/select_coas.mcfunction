@@ -14,6 +14,6 @@ execute if entity @s[tag=ggmp.tag.offhand] store result score item global.id run
 
 execute if score item global.id matches 1 run function ggmp:items/orb
 execute if score item global.id matches 3 run function ggmp:items/spell_orb
-execute if score item global.id matches 5 run function ggmp:items/staff/test_book
+execute if score item global.id matches 5 run function ggmp:items/staff/main
 
-scoreboard players reset item global.id
+scoreboard players reset item

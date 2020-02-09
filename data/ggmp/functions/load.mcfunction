@@ -3,7 +3,7 @@
 #------------------------------#
 
 scoreboard objectives add ggmp.CONSTANT dummy
-scoreboard objectives add ggmp.potential dummy
+scoreboard objectives add ggmp.level dummy
 scoreboard objectives add ggmp.mana dummy
 scoreboard objectives add ggmp.recharge dummy
 

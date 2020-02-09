@@ -14,7 +14,7 @@
 									"condition": "minecraft:entity_scores",
 									"entity": "this",
 									"scores": {
-										"ggmp.potential": {
+										"ggmp.level": {
 											"min": 5,
 											"max": 149
 										}
@@ -30,7 +30,7 @@
 									"condition": "minecraft:entity_scores",
 									"entity": "this",
 									"scores": {
-										"ggmp.potential": {
+										"ggmp.level": {
 											"min": 150,
 											"max": 299
 										}
@@ -46,7 +46,7 @@
 									"condition": "minecraft:entity_scores",
 									"entity": "this",
 									"scores": {
-										"ggmp.potential": {
+										"ggmp.level": {
 											"min": 300,
 											"max": 999
 										}

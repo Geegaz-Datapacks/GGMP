@@ -19,7 +19,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:17061,ggmp:{id:6,spell:{id:1,mana:10,level:1}}}"
+							"tag": "{CustomModelData:17061,ggmp:{id:6,spell:{id:1,mana:10,level:1,name:\"Say Hey\"}}}"
 						}
 					]
 				}
