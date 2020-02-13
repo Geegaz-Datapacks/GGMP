@@ -19,7 +19,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:17023,ggmp:{id:2,level:3}}"
+							"tag": "{CustomModelData:1702300,ggmp:{id:2,level:3}}"
 						}
 					]
 				}

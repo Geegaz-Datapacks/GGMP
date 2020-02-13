@@ -13,7 +13,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:17012,ggmp:{id:12}}"
+							"tag": "{CustomModelData:1701200,ggmp:{id:12}}"
 						}
 					]
 				}

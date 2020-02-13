@@ -14,7 +14,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1704,ggmp:{id:4},ggunz:{id:1},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+							"tag": "{CustomModelData:1704000,ggmp:{id:4},ggunz:{id:1},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
 						}
 					]
 				}

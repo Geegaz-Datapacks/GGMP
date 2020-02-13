@@ -9,17 +9,11 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"text": "Magic Staff","color": "light_purple","italic": false}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"lore": [
-							  [{"text":"level 3","color":"gray","italic": false}]
-							]
+							"name": {"text": "Spell Orb","color": "light_purple","italic": false}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1705300,ggmp:{id:5,level:3}}"
+							"tag": "{CustomModelData:1703300,ggmp:{id:3,level:1}}"
 						}
 					]
 				}

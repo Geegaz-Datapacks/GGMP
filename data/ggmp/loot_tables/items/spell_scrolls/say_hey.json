@@ -5,11 +5,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:book",
+					"name": "minecraft:clock",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"text": "Spell Book","color": "gold","italic": false}
+							"name": {"text": "Say Hey","color": "gold","italic": false}
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -19,7 +19,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:17061,ggmp:{id:6,spell:{id:1,mana:10,level:1,name:\"Say Hey\"}}}"
+							"tag": "{CustomModelData:1706000,ggmp:{id:6,spell:{id:1,mana:10,level:1,name:\"Say Hey\"}}}"
 						}
 					]
 				}
