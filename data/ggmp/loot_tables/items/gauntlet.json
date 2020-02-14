@@ -1,0 +1,33 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Mana Gauntlet","color": "aqua","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"mana: ","color":"gray","italic": false},{"score": {"name":"item","objective":"ggmp.mana"},"color":"white","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": 0.00
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1707000,ggmp:{id:7,mana:0}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

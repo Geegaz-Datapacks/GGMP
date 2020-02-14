@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards":{
-		"function": "ggmp:get_potential"
+		"function": "ggmp:entities/get_level"
 	}
 }

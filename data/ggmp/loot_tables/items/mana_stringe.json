@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Mana Stringe","color": "aqua","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"mana: ","color":"gray","italic": false},{"text": "100","color":"white","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1708000,ggmp:{id:8,mana:100},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

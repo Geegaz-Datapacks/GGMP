@@ -12,8 +12,9 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}},tag=!
 execute if entity @s[tag=ggmp.tag.mainhand] store result score item global.id run data get entity @s SelectedItem.tag.ggmp.id
 execute if entity @s[tag=ggmp.tag.offhand] store result score item global.id run data get entity @s Inventory[{Slot:-106b}].tag.ggmp.id
 
-execute if score item global.id matches 1 run function ggmp:items/test_orb
+execute if score item global.id matches 1 run function ggmp:items/orb/main
 execute if score item global.id matches 3 run function ggmp:items/spell_orb/main
 execute if score item global.id matches 5 run function ggmp:items/staff/main
+execute if score item global.id matches 8 run function ggmp:items/stringe/main
 
 scoreboard players reset item

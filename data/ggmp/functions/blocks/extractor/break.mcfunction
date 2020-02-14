@@ -3,5 +3,5 @@
 #------------------------------#
 
 loot spawn ~ ~ ~ loot ggmp:blocks/extractor
-execute as @e[type=zombie,tag=ggmp.tag.crystal,distance=..1] run function ggmp:blocks/extractor/crystal_remove
+execute positioned ~ ~1 ~ as @e[type=zombie,tag=ggmp.tag.crystal,distance=..0.5] run function ggmp:blocks/extractor/crystal_remove
 kill @s
