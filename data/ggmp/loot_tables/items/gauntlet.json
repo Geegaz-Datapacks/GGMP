@@ -14,16 +14,20 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
-							  [{"text":"mana: ","color":"gray","italic": false},{"score": {"name":"item","objective":"ggmp.mana"},"color":"white","italic": false}]
-							]
+							  [{"text":"mana: ","color":"gray","italic": false},
+								{"score": {"name":"item","objective":"ggmp.mana"},"color":"white","italic": false},
+								{"text":"/","color":"gray","italic": false},
+								{"score": {"name":"item","objective":"ggmp.level"},"color":"gray","italic": false}]
+							],
+							"entity": "this"
 						},
 						{
 							"function": "minecraft:set_damage",
-							"damage": 0.00
+							"damage": 1.00
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1707000,ggmp:{id:7,mana:0}}"
+							"tag": "{CustomModelData:1707000,ggmp:{id:7,mana:1000,capacity:1000}}"
 						}
 					]
 				}
