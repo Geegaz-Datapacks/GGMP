@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Lit","color": "gold","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"level 1","color":"gray","italic": false}],
+							  [{"text":"mana: ","color":"gray","italic": false},{"text":"10","color":"white","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1706100,ggmp:{id:6,spell:{id:2,mana:10,level:1,name:\"Lit\"}},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
