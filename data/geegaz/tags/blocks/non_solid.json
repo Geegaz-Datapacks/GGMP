@@ -1,7 +1,7 @@
 {
  "replace":"false",
  "values": [
- "#global:air",
+ "#geegaz:air",
  "#minecraft:carpets",
  "#minecraft:buttons",
  "#minecraft:banners",

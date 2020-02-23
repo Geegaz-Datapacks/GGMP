@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"name": {"text": "Magic Missile","color": "gold","italic": false}
+							"name": {"text": "Lit","color": "gold","italic": false}
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -20,7 +20,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1706100,ggmp:{id:6,spell:{id:1,mana:10,level:1,name:\"Magic Missile\"}},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+							"tag": "{CustomModelData:1706100,geegaz:{pack:{id:2,name:{\"text\":\"GGMP\"}}},ggmp:{id:6,spell:{id:2,mana:10,level:1,name:{\"text\":\"Lit\"}}},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
 						}
 					]
 				}

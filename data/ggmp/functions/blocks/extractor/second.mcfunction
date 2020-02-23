@@ -7,4 +7,4 @@ execute as @e[type=armor_stand,tag=ggmp.tag.extract,distance=..1] at @s run func
 
 scoreboard players operation @s ggmp.mana += extract ggmp.mana
 scoreboard players reset extract
-execute if score @s ggmp.mana >= 20 ggmp.CONSTANT run function ggmp:blocks/extractor/spawn
+execute if score @s ggmp.mana >= 20 geegaz.CONSTANT run function ggmp:blocks/extractor/spawn

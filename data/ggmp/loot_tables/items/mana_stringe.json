@@ -19,7 +19,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1708000,ggmp:{id:8,mana:100},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+							"tag": "{CustomModelData:1708000,geegaz:{pack:{id:2,name:{\"text\":\"GGMP\"}}},ggmp:{id:8,mana:100},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
 						}
 					]
 				}

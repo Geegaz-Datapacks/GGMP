@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[{"text":"\ufff1 Stored Mana: ","color": "white","italic": false},
+								{"score": {"name": "@s","objective": "ggmp.mana"},"color": "aqua","italic": false},
+								{"text":" \ufff2","color": "white","italic": false}]
+							],
+							"entity": "this"
+						}
+					]
+				}
+			]
+		}
+	]
+}

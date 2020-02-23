@@ -28,4 +28,6 @@ execute store result score burn ggmp.mana run data get block ~ ~ ~ BurnTime 1.0
 scoreboard players add burn ggmp.mana 1200
 execute store result block ~ 0 ~ BurnTime short 1.0 run scoreboard players get burn ggmp.mana
 
-clone ~ 0 ~ ~ 0 ~ ~ ~ ~ 
+clone ~ 0 ~ ~ 0 ~ ~ ~ ~
+setblock ~ 0 ~ bedrock
+scoreboard players reset burn

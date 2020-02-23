@@ -27,7 +27,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1707000,ggmp:{id:7,mana:1000,capacity:1000}}"
+							"tag": "{CustomModelData:1707000,geegaz:{pack:{id:2,name:{\"text\":\"GGMP\"}}},ggmp:{id:7,mana:1000,capacity:1000}}"
 						}
 					]
 				}
