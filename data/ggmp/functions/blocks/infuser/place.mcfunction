@@ -1,8 +1,7 @@
 #------------------------------#
 #
 #------------------------------#
-
-summon minecraft:armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ggmp.tag.infuser","global.ignore"],Passengers:[{id:"minecraft:villager",Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["ggmp.tag.infuser_action","geegaz.tag.action","global.ignore"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:9999999,ShowParticles:0b}]}]}
-loot replace entity @e[type=armor_stand,tag=ggmp.tag.infuser,distance=..0.5] armor.head loot ggmp:blocks/infuser
+playsound block.wood.place block @a ~ ~ ~ 1 1
 
 setblock ~ ~ ~ piston_head[facing=down,short=true]
+summon minecraft:item_frame ~ ~1 ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Fixed:1b,Facing:1b,ItemDropChance:0.0f,Tags:["ggmp.tag.infuser","ggmp.tag.block","global.ignore"],Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:1701201,display:{Name:'{}'}}}}

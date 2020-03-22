@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "","color": "","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"","color":"gray","italic": false}],
+							  [{"text":"mana: ","color":"gray","italic": false},{"text":"","color":"white","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": ""
+						}
+					]
+				}
+			]
+		}
+	]
+}

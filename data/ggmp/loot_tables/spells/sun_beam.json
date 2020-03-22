@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"text": "Sun Beam","color": "light_purple","italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+							  [{"text":"level 3","color":"gray","italic": false}],
+							  [{"text":"mana: ","color":"gray","italic": false},{"text":"1000","color":"white","italic": false}]
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1706300,geegaz:{pack:{id:2,name:{\"text\":\"GGMP\"}}},ggmp:{id:6,spell:{id:12,mana:1000,level:3,name:{\"text\":\"Sun Beam\"}}},HideFlags:1,Enchantments:[{id:\"minecraft:unbreaking\",lvl:0s}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

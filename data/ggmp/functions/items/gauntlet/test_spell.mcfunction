@@ -7,5 +7,3 @@ execute if entity @s[tag=geegaz.tag.offhand] if entity @s[nbt={SelectedItem:{id:
 
 execute if score spell ggmp.id > 0 geegaz.CONSTANT run function ggmp:items/gauntlet/test_mana
 execute unless score spell ggmp.id > 0 geegaz.CONSTANT run title @s actionbar {"text":"No spell scroll selected"}
-
-scoreboard players reset spell

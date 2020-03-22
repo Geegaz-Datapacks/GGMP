@@ -3,5 +3,5 @@
 #------------------------------#
 
 execute as @a at @s run function #ggmp:spells
-scoreboard players operation @s ggmp.mana -= spell ggmp.mana
+execute unless score spell ggmp.CONSTANT matches 0 run scoreboard players operation @s ggmp.mana -= spell ggmp.mana
 

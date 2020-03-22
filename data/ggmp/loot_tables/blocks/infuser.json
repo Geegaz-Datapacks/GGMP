@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:structure_void",
+					"name": "minecraft:item_frame",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -13,7 +13,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1701200,geegaz:{pack:{id:2,name:{\"text\":\"GGMP\"}}},ggmp:{id:12}}"
+							"tag": "{CustomModelData:1701200,geegaz:{pack:{id:2,name:{\"text\":\"GGMP\"}}},ggmp:{id:12},EntityTag:{Invisible:1b,Silent:1b,Tags:[\"geegaz.tag.itfr\",\"ggmp.tag.infuser\"]}}"
 						}
 					]
 				}

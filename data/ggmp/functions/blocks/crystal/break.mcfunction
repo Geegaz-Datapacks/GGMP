@@ -1,7 +1,7 @@
 #------------------------------#
 #
 #------------------------------#
+playsound block.glass.break block @a ~ ~ ~ 1 1
 
 loot spawn ~ ~ ~ loot ggmp:items/etherium_rock
-tp @s 0 0 0
-kill @s
+function ggmp:entities/discrete_kill

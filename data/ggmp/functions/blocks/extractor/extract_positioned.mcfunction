@@ -1,7 +1,6 @@
 #------------------------------#
 #
 #------------------------------#
-scoreboard players reset extract
 execute store result score extract ggmp.mana run fill ~ ~ ~ ~ ~-5 ~ minecraft:coarse_dirt replace #ggmp:live_blocks
 execute store result score temp ggmp.mana run fill ~ ~ ~ ~ ~-5 ~ minecraft:dead_bush replace #minecraft:saplings
 scoreboard players operation extract ggmp.mana += temp ggmp.mana
