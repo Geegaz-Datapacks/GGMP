@@ -24,7 +24,7 @@
             "filename_prefix": true
         },
         "installation_advancement": {
-            "project_advancement_path": "ggunz:installed",
+            "project_advancement_path": "ggmp:installed",
             "icon": {
                 "item": "minecraft:carrot_on_a_stick", 
                 "nbt": "{CustomModelData: 170001}"
