@@ -2,7 +2,7 @@
    "replace": false,
    "values": [
       "#minecraft:logs",
-      "#minecraft:plants",
+      "#ggmp:plants",
       "minecraft:grass_block",
       "minecraft:podzol",
       "minecraft:farmland",
