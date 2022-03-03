@@ -1,0 +1,34 @@
+{
+    "author": "Geegaz",
+    "description": "About Magic and Potential",
+    "name": "GGMP",
+    "version": "1.0.0",
+    
+    "data_pack": {
+        "load": ["datapack"],
+        "pack_format": 8
+    },
+    "resource_pack": {
+        "load": ["resourcepack"],
+        "pack_format": 8
+    },
+    "pipeline": [
+        "beet.contrib.yellow_shulker_box",
+        "beet.contrib.installation_advancement",
+        "beet.contrib.babelbox"
+    ],
+    "meta": {
+        "babelbox": {
+            "load": ["ggmp.csv"],
+            "namespace": "ggmp",
+            "filename_prefix": true
+        },
+        "installation_advancement": {
+            "project_advancement_path": "ggunz:installed",
+            "icon": {
+                "item": "minecraft:carrot_on_a_stick", 
+                "nbt": "{CustomModelData: 170001}"
+            }
+        }
+    }
+}
